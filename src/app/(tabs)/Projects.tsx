@@ -12,6 +12,7 @@ const Projects = () => {
           </View>
             <Text style={{textAlign:'center',fontSize:18,fontWeight:'bold'}}>Mini Projects Link</Text>
             <Link href="/(tabs)/Profile" style={styles.Btn}>Profile</Link>
+            <Link href="/(tabs)/About" style={styles.Btn}>About</Link>
     </ScrollView>
   )
 }

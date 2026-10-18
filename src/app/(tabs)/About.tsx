@@ -6,8 +6,8 @@ const About = () => {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <View style={styles.card}>
-        <Text style={styles.title}>About</Text>
-        <Text style={styles.subtitle}>React Native App</Text>
+        <Text style={styles.title}>About React Native</Text>
+        <Text style={styles.subtitle}>React Native is a popular open-source framework for building mobile applications using JavaScript and React.</Text>
         <Link href="/Projects" style={styles.link}>Go Back</Link>
       </View>
     </View>

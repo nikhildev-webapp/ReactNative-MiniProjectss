@@ -5,9 +5,14 @@ import { StyleSheet, Text, View } from "react-native";
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text>React Native Home Page</Text>
-      <Link href="/About" style={styles.link}>
-        About
+      <Text style={{ fontSize: 20, fontWeight: "bold" }}>
+        React Native Mini Projects
+      </Text>
+      <Text style={{ fontSize: 16, fontWeight: "semibold", }}>
+        Click The Link Below to Navigate to Projects
+      </Text>
+      <Link href="/Projects" style={styles.link}>
+        Mini Projects
       </Link>
     </View>
   );
@@ -20,7 +25,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   link: {
-    fontSize: 16,
+    fontSize: 20,
     color: "blue",
     marginTop: 8,
   },

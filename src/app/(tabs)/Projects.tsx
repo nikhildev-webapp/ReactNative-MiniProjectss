@@ -13,6 +13,7 @@ const Projects = () => {
             <Text style={{textAlign:'center',fontSize:18,fontWeight:'bold'}}>Mini Projects Link</Text>
             <Link href="/(tabs)/Profile" style={styles.Btn}>Profile</Link>
             <Link href="/(tabs)/About" style={styles.Btn}>About</Link>
+            <Link href="/(tabs)/Welcome" style={styles.Btn}>Welcome Screen</Link>
     </ScrollView>
   )
 }
